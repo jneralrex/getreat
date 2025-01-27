@@ -59,20 +59,20 @@ const Slider = () => {
       </div>
 
       {/* Left Arrow */}
-      <div
+      {/* <div
         className="absolute top-[50%] -translate-y-1/2 left-5 text-2xl rounded-full p-2 bg-black/50 hover:bg-black/70 text-white cursor-pointer"
         onClick={prevSlide}
       >
         <AiOutlineArrowLeft size={30} />
-      </div>
+      </div> */}
 
       {/* Right Arrow */}
-      <div
+      {/* <div
         className="absolute top-[50%] -translate-y-1/2 right-5 text-2xl rounded-full p-2 bg-black/50 hover:bg-black/70 text-white cursor-pointer"
         onClick={nextSlide}
       >
         <AiOutlineArrowRight size={30} />
-      </div>
+      </div> */}
 
       {/* Dots */}
       <div className="flex justify-center py-2 gap-2">

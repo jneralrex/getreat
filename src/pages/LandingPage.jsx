@@ -14,15 +14,15 @@ const LandingPage = () => {
   return (
     <div>
       <Slider />
-      <div className="absolute inset-0 px-6">
-        <div className="flex items-center justify-between">
+      <div className="absolute inset-0 px-4">
+        <div className="flex items-center justify-between gap-5">
           <div>
             <img src={logo} alt="Logo" className="w-20" />
           </div>
-          <div className="flex justify-evenly gap-2 text-white md:gap-4 items-center text-[14px] italic">
+          <div className="flex justify-evenly gap-2 text-white md:gap-4 items-center text-[7.4px] sm:text-[14px] italic">
             <div>Become A Provider</div>
             <div>About Us</div>
-            <div className="bg-[#408561] h-10 text-center flex items-center p-2 rounded-md">
+            <div className="bg-[#408561] sm:h-10 text-center flex items-center p-1 sm:p-2 rounded-md">
               Join Our Community
             </div>
           </div>
