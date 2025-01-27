@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/images/landingpage/logo.png";
 import signUpBanner from "../assets/images/auth/group.png";
 import google from "../assets/images/auth/gogle.png";
+import { Link } from "react-router-dom";
 const SignUp = () => {
   return (
     <div className="flex flex-row w-full md:pl-20 md:pr-5 py-5 min-h-screen gap-10">
