@@ -33,13 +33,13 @@ const Footer = () => {
         </div>
         <div className="h-20  w-[264px] sm:w-[200px] flex justify-center items-center">
           <form action="">
-            <div className="flex w-full max-w-[260px] gap-1 sm:mr-10 bg-white rounded-lg p-1">
+            <div className="flex w-full max-w-[280px] gap-1 sm:mr-10 bg-white rounded-lg p-1">
               <input
                 type="text"
                 placeholder="Type your email"
                 className="outline-none"
               />
-              <button className="border bg-[#408561] rounded-lg text-[12px] italic p-2 text-white">
+              <button className="border w-[200px] bg-[#408561] rounded-lg text-[12px] italic p-2 text-white">
                 Subscribe
               </button>
             </div>
