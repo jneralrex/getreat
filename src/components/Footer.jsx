@@ -31,9 +31,9 @@ const Footer = () => {
             +234-5005-34343
           </p>
         </div>
-        <div className="h-20  w-[264px] sm:w-[200px] flex justify-center items-center">
+        <div className="h-20 w-[270px] sm:w-[200px] flex justify-center items-center">
           <form action="">
-            <div className="flex w-full max-w-[280px] gap-1 sm:mr-10 bg-white rounded-lg p-1">
+            <div className="flex w-full max-w-[300px] gap-1 sm:mr-10 bg-white rounded-lg p-1">
               <input
                 type="text"
                 placeholder="Type your email"
