@@ -124,7 +124,7 @@ const TestimonySlider = () => {
                       </div>
                     </div>
                   </div>
-                  <p className="text-sm text-justify">{slide.testimony}</p>
+                  <p className="text-sm text-justify"><span className="text-[20px]">"</span>{slide.testimony}<span className="text-[20px]">"</span></p>
                 </div>
               </div>
             ))}

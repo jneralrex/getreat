@@ -8,7 +8,12 @@ import healthy from "../assets/images/landingpage/healthy.png";
 import pastor from "../assets/images/landingpage/pastor.png";
 import nurse from "../assets/images/landingpage/nurse.png";
 import TestimonySlider from "../components/TestimonySlider";
-
+import phone1 from "../assets/images/landingpage/phone1.png";
+import phone2 from "../assets/images/landingpage/phone2.png";
+import appstore from "../assets/images/landingpage/appstore.png";
+import googleplay from "../assets/images/landingpage/googleplay.png";
+import preggo from "../assets/images/landingpage/preggo.png";
+import Footer from "../components/Footer";
 
 const LandingPage = () => {
   return (
@@ -169,27 +174,71 @@ const LandingPage = () => {
                 Gain presence online.
               </li>
               <li className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-1/4 md:before:top-[14px] before:-translate-y-1/2 before:w-4 before:h-4 before:bg-orange-500 before:rounded-sm">
-                Create attractive contents to increase patients traffics. partners benefits.
+                Create attractive contents to increase patients traffics.
+                partners benefits.
               </li>
               <li className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-1/4 md:before:top-[14px] before:-translate-y-1/2 before:w-4 before:h-4 before:bg-orange-500 before:rounded-sm">
                 Create you community and earn.
               </li>
               <li className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-1/4 md:before:top-[14px] before:-translate-y-1/2 before:w-4 before:h-4 before:bg-orange-500 before:rounded-sm">
-               Get paid attneding to patients' needs anywhere in the world.
+                Get paid attneding to patients' needs anywhere in the world.
               </li>
             </ul>
             <div className="flex justify-center sm:justify-start">
-            <div className="bg-[#408561] h-10  p-2 rounded-md max-w-[170px] text-center text-white text-[13px] italic mt-3">
-            Join Our Community
-          </div>
+              <div className="bg-[#408561] h-10  p-2 rounded-md max-w-[170px] text-center text-white text-[13px] italic mt-3">
+                Join Our Community
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center mb-10 font-extrabold text-[18px] lg:text-[36px] leading-[49.03px]">Testimony From Great Users</div>
-      <div className="w-full bg-gray-500/20 p-4">
-     <TestimonySlider/>
+      <div className="w-full flex justify-center mb-10 font-extrabold text-[18px] lg:text-[36px] leading-[49.03px]">
+        Testimony From Great Users
       </div>
+      <div className="w-full bg-gray-500/20 p-4 pl-0">
+        <TestimonySlider />
+      </div>
+
+      <div className="flex flex-row w-full gap-10 justify-center">
+        <div className="flex flex-col p-5 md:pl-10 md:w-full justify-center gap-2 md:ml-[50px]">
+          <p className="font-[600] text-[18px] w-full md:font-[800] md:text-[30px] lg:text-[36px] md:text-start md:max-w-[400px] text-center">
+            GET THE APP FOR PATIENTS ACCESS
+          </p>
+          <p
+            className="font-[300] md:max-w-[200px] 
+           text-center md:text-start"
+          >
+            Download the app on Play Store and Apple Store
+          </p>
+          <div className="flex flex-row gap-5 lg:gap-10 w-full justify-center md:justify-normal mb-[40px]">
+            <div className="flex flex-col justify-center items-center gap-3 md:gap-5">
+              <img src={phone1} alt="Phone 1" />
+              <img
+                src={googleplay}
+                alt="Google Play"
+                className="lg:ml-8 w-[100px] sm:w-[120px] md:w-[110px] lg:w-[150px]"
+              />
+            </div>
+            <div className="flex flex-col justify-center items-center gap-3 md:gap-5">
+              <img src={phone2} alt="Phone 2" />
+              <img
+                src={appstore}
+                alt="Apple Store"
+                className="lg:mr-12 w-[100px] sm:w-[120px] md:w-[110px] lg:w-[150px]"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="hidden md:block">
+          <img
+            src={preggo}
+            alt="Pregnant Woman"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+    <Footer/>
     </div>
   );
 };
