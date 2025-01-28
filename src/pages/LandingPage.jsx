@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "../components/Slider";
-import logo from "../assets/images/landingpage/logo.png";
 import babyscanclock from "../assets/images/landingpage/babyscanclock.png";
 import dr from "../assets/images/landingpage/dr.png";
 import group1 from "../assets/images/landingpage/group1.png";
@@ -14,24 +13,13 @@ import appstore from "../assets/images/landingpage/appstore.png";
 import googleplay from "../assets/images/landingpage/googleplay.png";
 import preggo from "../assets/images/landingpage/preggo.png";
 import Footer from "../components/Footer";
-
+import Nav from "../components/Nav";
 const LandingPage = () => {
   return (
     <div>
       <Slider />
       <div className="absolute inset-0 px-4">
-        <div className="flex items-center justify-between gap-5">
-          <div>
-            <img src={logo} alt="Logo" className="w-20" />
-          </div>
-          <div className="flex justify-evenly gap-2 text-white md:gap-4 items-center text-[7.4px] sm:text-[14px] italic">
-            <div>Become A Provider</div>
-            <div>About Us</div>
-            <div className="bg-[#408561] sm:h-10 text-center flex items-center p-1 sm:p-2 rounded-md">
-              Join Our Community
-            </div>
-          </div>
-        </div>
+       <Nav/>
         <div className="flex flex-col gap-2 pt-6 md:pl-12 md:pt-14 lg:pt-14">
           <p className="font-extrabold text-white sm:text-[30px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[500px] md:leading-[61.28px]">
             Your Partner in Pregnancy, Parenting, and Beyond
@@ -198,7 +186,6 @@ const LandingPage = () => {
       <div className="w-full bg-gray-500/20 p-4 pl-0">
         <TestimonySlider />
       </div>
-
       <div className="flex flex-row w-full gap-10 justify-center">
         <div className="flex flex-col p-5 md:pl-10 md:w-full justify-center gap-2 md:ml-[50px]">
           <p className="font-[600] text-[18px] w-full md:font-[800] md:text-[30px] lg:text-[36px] md:text-start md:max-w-[400px] text-center">
@@ -238,7 +225,7 @@ const LandingPage = () => {
           />
         </div>
       </div>
-    <Footer/>
+      <Footer />
     </div>
   );
 };
