@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         open_sans: ['Open Sans', 'sans-serif'],
+        spartan:["League Spartan", "serif"]
       },
     },
   },

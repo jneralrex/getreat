@@ -5,7 +5,7 @@ import google from "../assets/images/auth/gogle.png";
 import { Link } from "react-router-dom";
 const SignUp = () => {
   return (
-    <div className="flex flex-row w-full px-5 md:pl-20 md:pr-5 py-5 min-h-screen gap-10">
+    <div className="flex flex-row w-full px-5 md:pl-20 md:pr-5 py-5 min-h-screen gap-10 font-spartan">
       <div className="flex flex-col gap-2 w-full ml-auto mr-auto max-w-[400px]  sm:max-w-[600px]">
         <div className="flex flex-col gap-2 justify-center items-center lg:justify-start lg:items-start">
           <img src={logo} alt="Logo" className="w-20" />
