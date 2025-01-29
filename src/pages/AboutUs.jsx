@@ -72,10 +72,10 @@ const AboutUs = () => {
 
           <div className="flex flex-col gap-3 items-center justify-between my-5 sm:mt-5">
             <div className="w-full flex flex-col justify-center  text-center md:text-start ">
-              <p className="font-[800] text-left text-[19px]">
+            <p className="font-[800] leading-[49.03px] md:text-[18px] lg:text-[36px]">
                 We Build Bridges Between
               </p>
-              <p className="font-[800] text-[#408561] text-[18px] text-left">
+                       <p className="font-[800] text-[#408561]  leading-[49.03px] md:text-[18px] lg:text-[36px]">
                 Patients & Providers
               </p>
             </div>
@@ -109,10 +109,11 @@ const AboutUs = () => {
       <div className="px-[20px] md:px-20 md:mt-10 font-open_sans tracking-[16%]">
         <div className="flex flex-col gap-3 items-center justify-between my-5 sm:mt-5">
           <div className="w-full flex flex-col justify-center  text-center md:text-start ">
-            <p className="font-[800] text-left text-[19px]">
-              We Believe In Mutual
+          <p className="font-[800] leading-[49.03px] md:text-[18px] lg:text-[36px]">
+          We Believe In Mutual
             </p>
-            <p className="font-[800] text-[18px] text-left">Collaboration</p>
+            <p className="font-[800] leading-[49.03px] md:text-[18px] lg:text-[36px] text-left">
+            Collaboration</p>
           </div>
           <div className=" w-full flex justify-end">
           <p className="text-[9.5px] sm:text-[15px] md:text-[14px] lg:text-[18px] sm:max-w-[480px] md:max-w-[480px] lg:max-w-[625px] max-w-[317px]">
