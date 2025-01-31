@@ -22,7 +22,7 @@ const Nav = () => {
                             <Link to="/about" className="block text-[10px] md:text-[14px] hover:text-[#c3671a]">
                                 Safety & Compliance
                             </Link>
-                            <Link to="/about" className="block text-[10px] md:text-[14px] hover:text-[#c3671a]">
+                            <Link to="/contact" className="block text-[10px] md:text-[14px] hover:text-[#c3671a]">
                                 Contact Us
                             </Link>
                         </div>

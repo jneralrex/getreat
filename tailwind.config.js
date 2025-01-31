@@ -8,7 +8,9 @@ export default {
     extend: {
       fontFamily: {
         open_sans: ['Open Sans', 'sans-serif'],
-        spartan:["League Spartan", "serif"]
+        spartan:["League Spartan", "serif"],
+        montserrat:[ "Montserrat", "serif"],
+        poppins:["Poppins", "serif"],
       },
     },
   },

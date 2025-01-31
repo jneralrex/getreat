@@ -3,6 +3,8 @@ import SignUp from "./auth/SignUp";
 import Login from "./auth/Login";
 import LandingPage from "./pages/LandingPage";
 import AboutUs from "./pages/AboutUs";
+import ProviderReg from "./auth/ProviderReg";
+import ContactUs from "./pages/ContactUs";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -11,6 +13,10 @@ const router = createBrowserRouter(
     <Route path="/login" element={<Login/>}/>
     <Route path="/landing" element={<LandingPage/>}/>
     <Route path="/about" element={<AboutUs/>}/>
+    <Route path="/provider" element={<ProviderReg/>}/>
+    <Route path="/contact" element={<ContactUs/>}/>
+
+
   </Route>
 
 
