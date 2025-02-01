@@ -14,10 +14,10 @@ const ContactUs = () => {
       <div className="absolute inset-0 px-4">
         <Nav />
         <div className="flex flex-col gap-2 pt-6 md:pl-12 md:pt-14 lg:pt-24">
-          <p className=" tracking-[16%] font-extrabold text-white sm:text-[30px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[400px] md:leading-[61.28px] font-open_sans">
-            Contact us at Getreat{" "}
+          <p className=" tracking-[3px] font-extrabold text-white sm:text-[30px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[400px] md:leading-[61.28px] font-open_sans">
+            Contact us at Getreat
           </p>
-          <p className="tracking-[16%] text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-[560px] leading-[24.51px] font-open_sans">
+          <p className="tracking-[1px] text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-[650px] leading-[24.51px] font-open_sans">
             Have questions or need assistance? We're here to help! Whether
             you're looking for more information, support, or simply want to say
             hello, our team is ready to assist. Reach out to us today, and let's

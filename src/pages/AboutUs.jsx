@@ -14,11 +14,11 @@ const AboutUs = () => {
       <AboutSlider />
       <div className="absolute inset-0 px-4 font-open_sans tracking-[16%]">
        <Nav/>
-        <div className="flex flex-col gap-2 pt-6 md:pl-12 md:pt-14 lg:pt-14">
-          <p className="font-extrabold text-white sm:text-[30px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[530px] md:leading-[61.28px]">
+        <div className="flex flex-col gap-2 md:pl-12 md:pt-14 lg:pt-14">
+          <p className="font-extrabold text-white sm:text-[25px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] md:leading-[61.28px] md:tracking-[3px]">
             Healthcare Service is Faster and Convenient with Getreat{" "}
           </p>
-          <p className="text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-[415px] leading-[20.51px]">
+          <p className=" md:tracking-[1px] text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-[480px] leading-[20.51px]">
             Getreat is a platform that allows patients access to healthcare
             services anytime, anywhere, faster and tailored to particular needs
             on pregnancy, fertility, and newborn health.

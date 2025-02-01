@@ -21,10 +21,10 @@ const LandingPage = () => {
       <div className="absolute inset-0 px-4">
        <Nav/>
         <div className="flex flex-col gap-2 pt-6 md:pl-12 md:pt-14 lg:pt-14">
-          <p className=" tracking-[16%] font-extrabold text-white sm:text-[30px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[530px] md:leading-[61.28px] font-open_sans">
+          <p className=" tracking-[3px] font-extrabold text-white sm:text-[30px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] md:leading-[61.28px] font-open_sans">
             Your Partner in Pregnancy, Parenting, and Beyond
           </p>
-          <p className="tracking-[16%] text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-[450px] leading-[24.51px] font-open_sans">
+          <p className="tracking-[1px] text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-[480px] leading-[24.51px] font-open_sans">
             Advancing the Motherhood Experience: Pregnancy Care, Baby Support,
             and Fertility Enhancement
           </p>
