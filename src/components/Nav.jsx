@@ -6,7 +6,7 @@ import { IoChevronDownSharp } from "react-icons/io5";
 const Nav = () => {
   return (
     <div className="flex items-center justify-between gap-5">
-      <Link to="/landing">
+      <Link to="/">
         <img src={logo} alt="Logo" className="w-20" />
       </Link>
       <div className="flex justify-evenly gap-[5px] text-white md:gap-4 items-center text-[7.7px] sm:text-[14px] italic">
@@ -40,7 +40,7 @@ const Nav = () => {
         </div>
 
         <Link
-          to="/"
+          to="/sign-up"
           className="bg-[#408561] sm:h-10 text-center flex items-center p-1 sm:p-2 rounded-md"
         >
           Join Our Community

@@ -15,9 +15,9 @@ import Provider from "./pages/Provider";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path="/" element={<SignUp />} />
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/sign-up" element={<SignUp />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/landing" element={<LandingPage />} />
       <Route path="/about" element={<AboutUs />} />
       <Route path="/provider-reg" element={<ProviderReg />} />
       <Route path="/contact" element={<ContactUs />} />

@@ -14,6 +14,7 @@ import googleplay from "../assets/images/landingpage/googleplay.png";
 import preggo from "../assets/images/landingpage/preggo.png";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
+import { Link } from "react-router-dom";
 const LandingPage = () => {
   return (
     <div>
@@ -28,9 +29,11 @@ const LandingPage = () => {
             Advancing the Motherhood Experience: Pregnancy Care, Baby Support,
             and Fertility Enhancement
           </p>
-          <div className="bg-[#408561] h-10  p-2 rounded-md max-w-[170px] text-center text-white text-[13px] italic font-open_sans">
+         <Link to="/sign-up">
+         <div className="bg-[#408561] h-10  p-2 rounded-md max-w-[170px] text-center text-white text-[13px] italic font-open_sans">
             Join Our Community
           </div>
+         </Link>
         </div>
       </div>
       <div className="flex flex-col justify-evenly gap-10 lg:gap-5 p-5 lg:p-10">
@@ -173,9 +176,11 @@ const LandingPage = () => {
               </li>
             </ul>
             <div className="flex justify-center sm:justify-start">
-              <div className="bg-[#408561] h-10  p-2 rounded-md max-w-[170px] text-center text-white text-[13px] italic mt-3">
+            <Link to="/sign-up">
+            <div className="bg-[#408561] h-10  p-2 rounded-md max-w-[170px] text-center text-white text-[13px] italic mt-3">
                 Join Our Community
               </div>
+            </Link>
             </div>
           </div>
         </div>
