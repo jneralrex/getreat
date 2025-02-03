@@ -22,7 +22,7 @@ const LandingPage = () => {
       <div className="absolute inset-0 px-4">
        <Nav/>
         <div className="flex flex-col gap-2 pt-6 md:pl-12 md:pt-14 lg:pt-14">
-          <p className=" tracking-[3px] font-extrabold text-white sm:text-[30px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] md:leading-[61.28px] font-open_sans">
+          <p className=" tracking-[3px] font-extrabold text-white sm:text-[20px] md:text-[30px] xl:text-[30px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] md:leading-[61.28px] font-open_sans">
             Your Partner in Pregnancy, Parenting, and Beyond
           </p>
           <p className="tracking-[1px] text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-[480px] leading-[24.51px] font-open_sans">
@@ -36,10 +36,12 @@ const LandingPage = () => {
          </Link>
         </div>
       </div>
-      <div className="flex flex-col justify-evenly gap-10 lg:gap-5 p-5 lg:p-10">
-        <div className="flex flex-row items-center  mt-6 justify-between">
+    
+    <div className="sm:max-w-[70%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
+    <div className="flex flex-col justify-evenly  lg:gap-5">
+        <div className="flex flex-row items-center mt-6 justify-between">
           <div>
-            <img src={babyscanclock} alt="" />
+            <img src={babyscanclock} alt="" className="hidden md:block"/>
           </div>
           <div className="">
             <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[400px] font-open_sans tracking-[16%]">
@@ -67,12 +69,12 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[30px] justify-between ">
+        <div className="flex flex-row items-center lg:mt-[30px] justify-between gap-3">
           <div className="lg:max-w-[390px] lg:mt-36 flex flex-col gap-3">
             <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] max-w-[280px] md:max-w-[450px] lg:max-w-[400px] font-open_sans tracking-[16%]">
               Our Access Is Timeless: Anytime, Anywhere
             </p>
-            <p className="text-[14px] md:text-[18px] lg:text-[17px] font-open_sans leading-[24.51px] tracking-[16%]">
+            <p className="text-[14px] md:text-[18px] lg:text-[15px] font-open_sans leading-[24.51px] tracking-[1px]">
               The modern day demands an empowered freedom to stay connected to
               continous healthcare support. With our platform, you can access
               high-quality healthcare services anywhere and anytime-whether
@@ -83,7 +85,7 @@ const LandingPage = () => {
               right at your fingertips
             </p>
           </div>
-          <div className="flex flex-row items-center justify-between gap-6">
+          <div className="flex flex-row items-center justify-between gap-2">
             <div className="h-[250px] hidden lg:block">
               <img src={group1} alt="" className="" />
             </div>
@@ -98,8 +100,8 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[100px] justify-between ">
-          <div className="flex flex-row items-center justify-between gap-6">
+        <div className="flex flex-row items-center lg:mt-[100px] justify-between gap-3">
+          <div className="flex flex-row items-center justify-between gap-1">
             <div className="flex flex-col items-center hidden lg:block">
               <div className="">
                 <img src={healthy} alt="" />
@@ -128,8 +130,8 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[100px] justify-between font-open_sans">
-          <div className="lg:max-w-[390px] lg:mt-36 flex flex-col gap-3">
+        <div className="flex flex-row items-center lg:mt-[100px] justify-between font-open_sans gap-3">
+          <div className="lg:max-w-[390px] lg:mt-36 flex flex-col">
             <p className="tracking-[16%] font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] max-w-[280px] md:max-w-[450px] lg:max-w-[400px]">
               Easy To Reach Your Best Healthcare Provider
             </p>
@@ -137,7 +139,7 @@ const LandingPage = () => {
               Treat with your preffered provider available anytime.
             </p>
           </div>
-          <div className="flex flex-row items-center justify-between gap-6">
+          <div className="flex flex-row items-center justify-between gap-2">
             <div className="h-[250px] hidden lg:block">
               <img src={group1} alt="" className="" />
             </div>
@@ -152,7 +154,7 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[150px] gap-5 justify-between font-open_sans">
+        <div className="flex flex-row items-center lg:mt-[150px] justify-between font-open_sans">
           <div className="hidden sm:block">
             <img src={nurse} alt="" />
           </div>
@@ -188,6 +190,8 @@ const LandingPage = () => {
       <div className=" tracking-[16%] w-full flex justify-center mb-10 font-extrabold text-[18px] lg:text-[36px] leading-[49.03px] font-open_sans">
         Testimony From Great Users
       </div>
+    </div>
+    
       <div className="w-full bg-gray-500/20 p-4 pl-0 tracking-[16%] font-open_sans">
         <TestimonySlider />
       </div>

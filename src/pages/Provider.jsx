@@ -33,6 +33,7 @@ const Provider = () => {
           </Link>
         </div>
       </div>
+      <div className="sm:max-w-[70%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
       <div className="flex w-full justify-center my-[20px] md:my-[30px]">
         <p className="font-[800] md:text-[36px] tracking-[3px] md:max-w-[400px] text-center">
           What you Stand to Gain as a Provider
@@ -146,6 +147,8 @@ const Provider = () => {
             </div>
             </Link>
           </div>
+      </div>
+
       <Footer/>
     </div>
   );
