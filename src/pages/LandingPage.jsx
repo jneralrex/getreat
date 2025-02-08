@@ -21,6 +21,8 @@ const LandingPage = () => {
       <Slider />
       <div className="absolute inset-0 px-4">
        <Nav/>
+       <div className="sm:max-w-[70%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
+
         <div className="flex flex-col gap-2 pt-6 md:pl-12 md:pt-14 lg:pt-14">
           <p className=" tracking-[3px] font-extrabold text-white sm:text-[20px] md:text-[30px] xl:text-[30px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] md:leading-[61.28px] font-open_sans">
             Your Partner in Pregnancy, Parenting, and Beyond
@@ -35,12 +37,13 @@ const LandingPage = () => {
           </div>
          </Link>
         </div>
+        </div>
       </div>
     
     <div className="sm:max-w-[70%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
     <div className="flex flex-col justify-evenly  lg:gap-5">
-        <div className="flex flex-row items-center mt-6 justify-between">
-          <div>
+        <div className="flex flex-row items-center mt-6 justify-evenly">
+          <div className="">
             <img src={babyscanclock} alt="" className="hidden md:block"/>
           </div>
           <div className="">
@@ -69,7 +72,7 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[30px] justify-between gap-3">
+        <div className="flex flex-row items-center lg:mt-[30px] justify-evenly gap-3 ">
           <div className="lg:max-w-[390px] lg:mt-36 flex flex-col gap-3">
             <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] max-w-[280px] md:max-w-[450px] lg:max-w-[400px] font-open_sans tracking-[16%]">
               Our Access Is Timeless: Anytime, Anywhere
@@ -100,7 +103,7 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[100px] justify-between gap-3">
+        <div className="flex flex-row items-center lg:mt-[100px] justify-evenly  gap-3">
           <div className="flex flex-row items-center justify-between gap-1">
             <div className="flex flex-col items-center hidden lg:block">
               <div className="">
@@ -130,7 +133,7 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[100px] justify-between font-open_sans gap-3">
+        <div className="flex flex-row items-center lg:mt-[100px] justify-evenly font-open_sans gap-3">
           <div className="lg:max-w-[390px] lg:mt-36 flex flex-col">
             <p className="tracking-[16%] font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] max-w-[280px] md:max-w-[450px] lg:max-w-[400px]">
               Easy To Reach Your Best Healthcare Provider
@@ -154,7 +157,7 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[150px] justify-between font-open_sans">
+        <div className="flex flex-row items-center lg:mt-[150px] justify-evenly font-open_sans">
           <div className="hidden sm:block">
             <img src={nurse} alt="" />
           </div>
@@ -187,7 +190,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className=" tracking-[16%] w-full flex justify-center mb-10 font-extrabold text-[18px] lg:text-[36px] leading-[49.03px] font-open_sans">
+      <div className=" tracking-[3px] mt-[150px] w-full flex justify-center mb-10 font-extrabold text-[18px] lg:text-[36px] leading-[49.03px] font-open_sans">
         Testimony From Great Users
       </div>
     </div>
@@ -195,8 +198,9 @@ const LandingPage = () => {
       <div className="w-full bg-gray-500/20 p-4 pl-0 tracking-[16%] font-open_sans">
         <TestimonySlider />
       </div>
-      <div className=" font-open_sans flex flex-row w-full gap-10 justify-center">
-        <div className="flex flex-col p-5 md:pl-10 md:w-full justify-center gap-2 md:ml-[50px]">
+
+      <div className=" font-open_sans flex flex-row w-full">
+        <div className="max-w-[700px] flex flex-col p-5 md:pl-10 md:w-full justify-center gap-2 md:ml-[50px]">
           <p className="font-[600] text-[18px] w-full md:font-[800] md:text-[30px] lg:text-[36px] md:text-start md:max-w-[400px] text-center">
             GET THE APP FOR PATIENTS ACCESS
           </p>

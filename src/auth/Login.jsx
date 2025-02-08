@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="flex flex-row w-full md:pl-20 px-5 md:pr-5 py-5 min-h-screen gap-10 font-spartan">
-      <div className="flex flex-col gap-2 w-full ml-auto mr-auto max-w-[400px]  sm:max-w-[600px]">
+    <div className="flex flex-row w-full md:pl-20 px-5 md:pr-5 py-[10px] min-h-screen gap-10 font-spartan">
+      <div className="flex flex-col gap-2 w-full ml-auto mr-auto max-w-[400px]">
         <div className="flex flex-col gap-2 justify-center items-center lg:justify-start lg:items-start">
           <img src={logo} alt="Logo" className="w-20" />
           <p className="font-semibold text-2xl text-[#4A4A4A]">Log in</p>
@@ -72,7 +72,7 @@ const Login = () => {
           </div>
           <div className="w-full flex items-center">
             <button className="bg-[#408561] font-extrabold text-white rounded-lg p-2 hover:bg-[#356948] max-w-[400px] sm:max-w-[600px] w-full">
-              <Link to="/landing">Log in</Link>
+              <Link to="/provider">Log in</Link>
             </button>
           </div>
         </form>
@@ -86,7 +86,7 @@ const Login = () => {
         <img
           src={loginBanner}
           alt=""
-          className="min-h-screen h-full w-full object-cover rounded-[10px]"
+          className="min-h-screen w-full object-cover rounded-[5px]"
         />
       </div>
     </div>

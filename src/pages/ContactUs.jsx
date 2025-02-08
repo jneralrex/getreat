@@ -13,7 +13,9 @@ const ContactUs = () => {
       <ContactSlider />
       <div className="absolute inset-0 px-4">
         <Nav />
-        <div className="flex flex-col gap-2 pt-6 md:pl-12 md:pt-14 lg:pt-24">
+        <div className="sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
+
+        <div className="flex flex-col gap-2 md:pl-12 md:pt-14 lg:pt-24">
           <p className=" tracking-[3px] font-extrabold text-white sm:text-[30px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[400px] md:leading-[61.28px] font-open_sans">
             Contact us at Getreat
           </p>
@@ -24,9 +26,10 @@ const ContactUs = () => {
             make your experience with Getreat even better!
           </p>
         </div>
+        </div>
       </div>
 
-      <div className="sm:max-w-[70%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
+      <div className="sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
       <div className="flex flex-col items-center mb-[50px]">
         <div className=" w-full sm:max-w-[980px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 font-spartan  items-center p-8 rounded-[20px] lg:shadow-[15px_15px_20px_rgba(0,0,0,0.3),-5px_-5px_10px_rgba(0,0,0,0.1)] my-[50px] tracking-[2px] gap-2 lg:gap-0">
           <div className="flex flex-col justify-center items-center lg:rounded-none rounded-lg lg:shadow-none shadow-[5px_5px_10px_rgba(0,0,0,0.1),-5px_-5px_10px_rgba(0,0,0,0.1)] p-3 lg:p-0 w-full">

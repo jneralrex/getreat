@@ -12,6 +12,8 @@ const Provider = () => {
       <ProviderSlider />
       <div className="absolute inset-0 px-4 font-open_sans tracking-[16%]">
         <Nav />
+        <div className="sm:max-w-[100%] md:max-w-[100%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
+
         <div className="flex flex-col gap-2 md:pl-12 md:pt-14 lg:pt-14">
           <p className="font-extrabold text-white text-[13px] sm:text-[20px] md:text-[45px] max-w-[300px] sm:max-w-[350px] md:max-w-[530px] md:leading-[61.28px] tracking-[3px]">
             Join the Geetreat Network of Health Providers
@@ -32,8 +34,10 @@ const Provider = () => {
           </div>
           </Link>
         </div>
+        </div>
       </div>
-      <div className="sm:max-w-[70%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
+
+      <div className="sm:max-w-[100%] md:max-w-[90%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
       <div className="flex w-full justify-center my-[20px] md:my-[30px]">
         <p className="font-[800] md:text-[36px] tracking-[3px] md:max-w-[400px] text-center">
           What you Stand to Gain as a Provider
