@@ -21,7 +21,7 @@ const LandingPage = () => {
       <Slider />
       <div className="absolute inset-0 px-4">
        <Nav/>
-       <div className="sm:max-w-[70%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
+       <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
 
         <div className="flex flex-col gap-2 pt-6 md:pl-12 md:pt-14 lg:pt-14">
           <p className=" tracking-[3px] font-extrabold text-white sm:text-[20px] md:text-[30px] xl:text-[30px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] md:leading-[61.28px] font-open_sans">
@@ -40,7 +40,7 @@ const LandingPage = () => {
         </div>
       </div>
     
-    <div className="sm:max-w-[70%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
+    <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto p-2">
     <div className="flex flex-col justify-evenly  lg:gap-5">
         <div className="flex flex-row items-center mt-6 justify-evenly">
           <div className="">
@@ -50,7 +50,7 @@ const LandingPage = () => {
             <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[400px] font-open_sans tracking-[16%]">
               What We Provide For Expecting Mothers
             </p>
-            <ul className=" font-open_sans flex flex-col gap-3 sm:max-w-[300px] md:max-w-[450px] lg:max-w-[380px] mt-4 text-[14px] md:text-[18px] lg:text-[18px] tracking-[16%]">
+            <ul className=" font-open_sans flex flex-col gap-3 md:max-w-[450px] lg:max-w-[380px] mt-4 text-[14px] md:text-[18px] lg:text-[18px] tracking-[16%]">
               <li className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-1/4 md:before:top-[14px] before:-translate-y-1/2 before:w-4 before:h-4 before:bg-orange-500 before:rounded-sm">
                 Get Daily tips, motivation and advice tailored for every stage,
                 to monitor your baby development and keep track of your health.
@@ -74,7 +74,7 @@ const LandingPage = () => {
 
         <div className="flex flex-row items-center lg:mt-[30px] justify-evenly gap-3 ">
           <div className="lg:max-w-[390px] lg:mt-36 flex flex-col gap-3">
-            <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] max-w-[280px] md:max-w-[450px] lg:max-w-[400px] font-open_sans tracking-[16%]">
+            <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[400px] font-open_sans tracking-[16%]">
               Our Access Is Timeless: Anytime, Anywhere
             </p>
             <p className="text-[14px] md:text-[18px] lg:text-[15px] font-open_sans leading-[24.51px] tracking-[1px]">
@@ -118,7 +118,7 @@ const LandingPage = () => {
             </div>
           </div>
           <div className="lg:max-w-[390px] lg:mt-20 flex flex-col gap-3 font-open_sans">
-            <p className="tracking-[16%] font-extrabold text-[18px] md:text-[30px] md:leading-[49.03px] max-w-[280px] md:max-w-[450px] lg:max-w-[500px]">
+            <p className="tracking-[16%] font-extrabold text-[18px] md:text-[30px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[500px]">
               We Connect, We Build: Trusted Communities
             </p>
             <p className="tracking-[16%] text-[14px] md:text-[18px] lg:text-[17px]">
@@ -135,7 +135,7 @@ const LandingPage = () => {
 
         <div className="flex flex-row items-center lg:mt-[100px] justify-evenly font-open_sans gap-3">
           <div className="lg:max-w-[390px] lg:mt-36 flex flex-col">
-            <p className="tracking-[16%] font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] max-w-[280px] md:max-w-[450px] lg:max-w-[400px]">
+            <p className="tracking-[16%] font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[400px]">
               Easy To Reach Your Best Healthcare Provider
             </p>
             <p className="tracking-[16%] text-[14px] md:text-[18px] lg:text-[17px]">
@@ -190,7 +190,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className=" tracking-[3px] mt-[150px] w-full flex justify-center mb-10 font-extrabold text-[18px] lg:text-[36px] leading-[49.03px] font-open_sans">
+      <div className=" md:tracking-[3px] lg:mt-[150px] w-full flex justify-center mb-10 font-extrabold text-[18px] lg:text-[36px] leading-[49.03px] font-open_sans">
         Testimony From Great Users
       </div>
     </div>
