@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import smile from "../assets/images/landingpage/smile.png";
+import jack from "../assets/images/landingpage/jack.png";
 import logo from "../assets/images/landingpage/logo.png";
 
 const slides = [
@@ -94,7 +95,7 @@ const TestimonySlider = () => {
                     ? "w-full"
                     : visibleSlides === 1.5
                     ? "w-[calc(100%/1.5)]"
-                    : visibleSlides === 2
+                    : visibleSlides === 3
                     ? "w-[calc(100%/2)]"
                     : "w-[calc(100%/3)]"
                 }`}

@@ -7,7 +7,7 @@ import insta from "../assets/images/landingpage/insta.png";
 import flag from "../assets/images/landingpage/flag.png";
 const Footer = () => {
   return (
-    <footer className="font-open_sans tracking-[16%] w-full bg-[#408561] px-7 md:px-32 py-3 flex flex-col gap-3 overflow-hidden">
+    <footer className="font-open_sans tracking-[16%] w-full bg-[#408561] px-7 md:px-24 py-3 flex flex-col gap-3 overflow-hidden">
       <div className="grid grid-cols-3 md:flex w-full md:justify-between items-center text-[12px]">
         <img src={footerlogo} alt="" className=" w-[80px]" />
         <div className="text-white text-[10px] sm:text-[12px] md:text-[14px]">

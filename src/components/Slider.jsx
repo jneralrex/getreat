@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import banner from "../assets/images/landingpage/banner.png";
+import banner from "../assets/images/landingpage/banner1.png";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import { RxDotFilled } from "react-icons/rx";
 import nurse from "../assets/images/landingpage/nurse.png";
@@ -47,28 +47,14 @@ const Slider = () => {
   };
 
   return (
-    <div className="h-[350px] md:h-[580px] w-full relative group">
+    <div className="h-[350px] md:h-screen w-full relative group">
       <div
         className="w-full h-full bg-center bg-cover duration-500 relative"
         style={{
           backgroundImage: `url(${slides[currenIndex].images})`,
         }}
       >
-        <div className="absolute inset-0 bg-black/50"></div> {/* Black Inset */}
-      </div>
-
-      <div className="flex justify-center py-2 gap-2">
-        {slides.map((_, slidesIndex) => (
-          <div
-            key={slidesIndex}
-            onClick={() => goToSlides(slidesIndex)}
-            className={`text-2xl cursor-pointer ${
-              currenIndex === slidesIndex ? "text-green-500" : "text-gray-300"
-            }`}
-          >
-            <RxDotFilled />
-          </div>
-        ))}
+        <div className="absolute inset-0 bg-black/50"></div>
       </div>
     </div>
   );

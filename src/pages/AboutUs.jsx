@@ -1,6 +1,6 @@
 import React from "react";
 import AboutSlider from "../components/AboutSlider";
-import group1 from "../assets/images/landingpage/group1.png";
+import provider from "../assets/images/landingpage/provider.jpg";
 import family from "../assets/images/aboutus/family.png";
 import home from "../assets/images/aboutus/home.png";
 import office from "../assets/images/aboutus/office.png";
@@ -14,10 +14,10 @@ const AboutUs = () => {
       <AboutSlider />
       <div className="absolute inset-0 px-4 font-open_sans tracking-[16%]">
         <Nav />
-        <div className="sm:max-w-[100%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
+        <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
 
-        <div className="flex flex-col gap-2 md:pl-12 md:pt-14 lg:pt-14">
-          <p className="font-extrabold text-white sm:text-[25px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] md:leading-[61.28px] md:tracking-[3px]">
+        <div className="flex flex-col gap-5 md:pt-14 lg:pt-14">
+          <p className="font-extrabold text-white sm:text-[25px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] md:leading-[50.28px] md:tracking-[3px]">
             Healthcare Service is Faster and Convenient with Getreat{" "}
           </p>
           <p className=" md:tracking-[1px] text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-[480px] leading-[20.51px]">
@@ -33,9 +33,9 @@ const AboutUs = () => {
 
       </div>
 
-      <div className="sm:max-w-[100%] md:max-w-[100%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
-        <div className="px-[20px] md:px-20 font-open_sans tracking-[16%]">
-          <div className="w-full text-center my-5">
+      <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
+      <div className="px-[20px] md:px-20 font-open_sans tracking-[16%]">
+          <div className="w-full text-center my-5 mt-[50px]">
             <p className="font-[800] leading-[49.03px] sm:text-[18px] md:text-[20px] lg:text-[36px]">
               Our Story
             </p>
@@ -47,31 +47,36 @@ const AboutUs = () => {
               </p>
             </div>
           </div>
-          <div className="">
-            <div className="font-[800] leading-[49.03px] md:text-[18px] lg:text-[36px]">
-              Mission
+          <div className="flex flex-col gap-10 mt-[100px]">
+            <div>
+                  <div className="font-[800] leading-[49.03px] md:text-[18px] lg:text-[36px]">
+                    Mission
+                  </div>
+                  <div className="border border-spacing-1 border-gray-700 "></div>
+                  
+                  <div className="flex flex-col lg:flex-row gap-5 items-center justify-between my-5 ">
+                    <div className="">
+                      <img src={provider} alt="" className="w-[500px] rounded-md h-[300px]"/>
+                    </div>
+                    <div>
+                      <p className="text-[9.5px] sm:text-[15px] md:text-[14px] lg:text-[18px] lg:max-w-[550px]  tracking-[3px]">
+                        Healthcare is the basic of life, and Transforming lives
+                        through compassionate health service and innovative solutions
+                        make us bring simplicity to patients' access to healthcare
+                        services for convenience and faster delivery for all. As well
+                        nuturing every satge of new life, promoting physical and
+                        mental health, and enhancing quality of life.
+                      </p>
+                    </div>
+                  </div>
             </div>
-            <div className="border border-spacing-1 border-gray-700 "></div>
-            <div className="flex flex-col lg:flex-row gap-3 items-center justify-between my-5 sm:mt-5">
-              <div className="">
-                <img src={group1} alt="" className=""/>
-              </div>
-              <div>
-                <p className="text-[9.5px] sm:text-[15px] md:text-[14px] lg:text-[18px] lg:max-w-[550px]  tracking-[3px]">
-                  Healthcare is the basic of life, and Transforming lives
-                  through compassionate health service and innovative solutions
-                  make us bring simplicity to patients' access to healthcare
-                  services for convenience and faster delivery for all. As well
-                  nuturing every satge of new life, promoting physical and
-                  mental health, and enhancing quality of life.
-                </p>
-              </div>
-            </div>
+
+            <div>
             <div className="font-[800] leading-[49.03px] sm:text-[18px] md:text-[20px] lg:text-[36px] text-right">
               Vision
             </div>
             <div className="border border-spacing-1 border-gray-700"></div>
-            <div className="flex flex-col lg:flex-row gap-3 items-center justify-evenly my-5 sm:mt-5">
+            <div className="flex flex-col lg:flex-row gap-5 items-center justify-evenly my-5 ">
               <div>
                 <p className="text-[9.5px] sm:text-[15px] md:text-[14px] lg:text-[18px] lg:max-w-[600px] tracking-[2px]">
                   Getreat's vision is to create a healthier world by empowering
@@ -86,8 +91,10 @@ const AboutUs = () => {
                 <img src={family} alt="" className="" />
               </div>
             </div>
+            </div>
 
-            <div className="flex flex-col gap-3 items-center justify-between my-5 sm:mt-[100px]">
+           <div>
+           <div className="flex flex-col gap-3 items-center justify-between my-5">
               <div className="w-full flex flex-col justify-center  text-center md:text-start ">
                 <p className="font-[800] leading-[49.03px] md:text-[18px] lg:text-[36px]">
                   We Build Bridges Between
@@ -118,13 +125,15 @@ const AboutUs = () => {
                 </p>
               </div>
             </div>
+           </div>
+
           </div>
         </div>
         <div className="md:mt-[50px]">
-          <img src={home} alt="" className="" />
+          <img src={home} alt="" className="rounded-md" />
         </div>
         <div className="px-[20px] md:px-20 md:mt-[50px] font-open_sans tracking-[16%]">
-          <div className="flex flex-col gap-3 items-center justify-between my-5 sm:mt-5">
+          <div className="flex flex-col gap-3 items-center justify-between my-5 ">
             <div className="w-full flex flex-col justify-center  text-center lg:text-start ">
               <p className="font-[800] md:leading-[49.03px] md:text-[18px] lg:text-[36px]">
                 We Believe In Mutual
@@ -167,8 +176,8 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div>
-        <img src={office} alt="" className="" />
+      <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
+      <img src={office} alt="" className="rounded-lg" />
         <div className="w-full flex justify-center py-10 font-extrabold text-[18px] lg:text-[36px] font-open_sans tracking-[16%] leading-[49.03px]">
           Testimony From Great Users
         </div>
