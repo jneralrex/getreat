@@ -19,7 +19,7 @@ const ContactUs = () => {
           <p className=" tracking-[3px] font-extrabold text-white sm:text-[30px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[400px] md:leading-[61.28px] font-open_sans">
             Contact us at Getreat
           </p>
-          <p className="tracking-[1px] text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-[650px] leading-[24.51px] font-open_sans">
+          <p className="tracking-[2px] text-[14px] text-white font-[400] max-w-[400px] sm:max-w-[350px] md:max-w-[520px] leading-[24.51px] font-open_sans">
             Have questions or need assistance? We're here to help! Whether
             you're looking for more information, support, or simply want to say
             hello, our team is ready to assist. Reach out to us today, and let's

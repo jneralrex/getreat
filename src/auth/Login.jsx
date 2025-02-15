@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="flex flex-row w-full md:pl-20 px-5 md:pr-5 py-[10px] min-h-screen gap-10 font-spartan">
+    <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[95%] ml-auto">
+
+    <div className="flex flex-row w-full md:pl-[30px] px-5 md:pr-5 py-[10px] min-h-screen gap-10 font-spartan">
       <div className="flex flex-col gap-2 w-full ml-auto mr-auto max-w-[400px]">
         <div className="flex flex-col gap-2 justify-center items-center lg:justify-start lg:items-start">
           <img src={logo} alt="Logo" className="w-20" />
@@ -89,7 +91,9 @@ const Login = () => {
           className="min-h-screen w-full object-cover rounded-[5px]"
         />
       </div>
-    </div>
+    </div>  
+      </div>
+
   );
 };
 

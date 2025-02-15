@@ -27,7 +27,7 @@ const LandingPage = () => {
           <p className=" tracking-[3px] font-extrabold text-white sm:text-[20px] md:text-[30px] xl:text-[30px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] lg:max-w-[450px] md:leading-[50.28px] font-open_sans">
             Your Partner in Pregnancy, Parenting, and Beyond
           </p>
-          <p className="tracking-[1px] text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-[480px] leading-[24.51px] font-open_sans">
+          <p className="tracking-[2px] text-[14px] text-white font-[400] max-w-[400px] sm:max-w-[350px] md:max-w-[480px] leading-[24.51px] font-open_sans">
             Advancing the Motherhood Experience: Pregnancy Care, Baby Support,
             and Fertility Enhancement
           </p>
@@ -73,9 +73,9 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[100px] justify-evenly gap-3">
-          <div className="lg:max-w-[390px] flex flex-col gap-3">
-            <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[400px] font-open_sans tracking-[16%]">
+        <div className="flex flex-row items-center lg:mt-[100px] justify-evenly">
+          <div className="lg:max-w-[390px] flex flex-col gap-3 lg:mt-[150px]">
+            <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[400px] font-open_sans tracking-[2px]">
               Our Access Is Timeless: Anytime, Anywhere
             </p>
             <p className="text-[14px] md:text-[18px] lg:text-[15px] font-open_sans leading-[24.51px] tracking-[1px]">
@@ -89,7 +89,7 @@ const LandingPage = () => {
               right at your fingertips
             </p>
           </div>
-          <div className="flex flex-row items-center justify-between gap-2">
+          <div className="flex flex-row items-center justify-between gap-4">
             <div className="h-[250px] hidden lg:block">
               <img src={group1} alt="" className="" />
             </div>
@@ -105,7 +105,7 @@ const LandingPage = () => {
         </div>
 
         <div className="flex flex-row items-center lg:mt-[100px] justify-evenly gap-3 ">
-          <div className="flex flex-row items-center justify-between gap-1">
+          <div className="flex flex-row items-center justify-between gap-4">
             <div className="flex flex-col items-center hidden lg:block">
               <div className="">
                 <img src={healthy} alt="" />
@@ -143,7 +143,7 @@ const LandingPage = () => {
               Treat with your preffered provider available anytime.
             </p>
           </div>
-          <div className="flex flex-row items-center justify-between gap-2">
+          <div className="flex flex-row items-center justify-between gap-4">
             <div className="h-[250px] hidden lg:block">
               <img src={group1} alt="" className="" />
             </div>
@@ -201,7 +201,7 @@ const LandingPage = () => {
         <TestimonySlider />
       </div>
 
-      <div className="sm:max-w-[100%] md:max-w-[100%] lg:max-w-[90%] xl:w-[90%] 2xl:max-w-[70%] m-auto">
+      <div className="sm:max-w-[100%] md:max-w-[100%] lg:max-w-[90%] lg:ml-auto xl:w-[90%] 2xl:max-w-[70%] ">
       <div className=" font-open_sans flex flex-row w-full">
         <div className="flex flex-col p-5  md:w-full justify-center gap-2 ">
           <p className="font-[600] text-[18px] w-full md:font-[800] md:text-[30px] lg:text-[36px] md:text-start md:max-w-[400px] text-center">

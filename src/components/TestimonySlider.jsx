@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import smile from "../assets/images/landingpage/smile.png";
-import jack from "../assets/images/landingpage/jack.png";
+import rihanna from "../assets/images/landingpage/rihanna.png";
 import logo from "../assets/images/landingpage/logo.png";
 
 const slides = [
   {
-    image: smile,
+    image: rihanna,
     name: "Esther Adekunle Iyoha",
     location: "London, UK",
     logo: logo,
@@ -93,14 +93,14 @@ const TestimonySlider = () => {
                 className={`flex-shrink-0 ${
                   visibleSlides === 1
                     ? "w-full"
-                    : visibleSlides === 1.5
+                    : visibleSlides === 1
                     ? "w-[calc(100%/1.5)]"
-                    : visibleSlides === 3
+                    : visibleSlides === 1
                     ? "w-[calc(100%/2)]"
                     : "w-[calc(100%/3)]"
                 }`}
               >
-                <div className="bg-white p-5 shadow-md rounded-lg flex flex-col gap-5">
+                <div className="bg-white p-5 shadow-md rounded-lg flex flex-col gap-5 w-full">
                   <div className="flex gap-3">
                     <img
                       src={slide.image}

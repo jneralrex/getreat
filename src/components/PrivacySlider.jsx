@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import banner from "../assets/images/landingpage/banner.png";
+import privacy from "../assets/images/landingpage/privacy.png";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import { RxDotFilled } from "react-icons/rx";
 import care from "../assets/images/landingpage/care.png";
 import nurse from "../assets/images/landingpage/nurse.png";
 import bluepreggo from "../assets/images/aboutus/bluepreggo.png";
 
-const ProviderSlider = () => {
+const PrivacySlider = () => {
   const slides = [
     {
-      images: care,
+      images: privacy,
       title: "Image One",
     },
     {
@@ -63,4 +64,4 @@ const ProviderSlider = () => {
   );
 };
 
-export default ProviderSlider;
+export default PrivacySlider;

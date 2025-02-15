@@ -17,10 +17,10 @@ const AboutUs = () => {
         <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
 
         <div className="flex flex-col gap-5 md:pt-14 lg:pt-14">
-          <p className="font-extrabold text-white sm:text-[25px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] md:leading-[50.28px] md:tracking-[3px]">
+          <p className="font-extrabold text-white sm:text-[25px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[800px] md:leading-[50.28px] md:tracking-[3px]">
             Healthcare Service is Faster and Convenient with Getreat{" "}
           </p>
-          <p className=" md:tracking-[1px] text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-[480px] leading-[20.51px]">
+          <p className=" md:tracking-[2px] text-[14px] text-white font-[400] max-w-[400px] sm:max-w-[350px] md:max-w-[550px] leading-[20.51px]">
             Getreat is a platform that allows patients access to healthcare
             services anytime, anywhere, faster and tailored to particular needs
             on pregnancy, fertility, and newborn health.
@@ -129,7 +129,7 @@ const AboutUs = () => {
 
           </div>
         </div>
-        <div className="md:mt-[50px]">
+        <div className="">
           <img src={home} alt="" className="rounded-md" />
         </div>
         <div className="px-[20px] md:px-20 md:mt-[50px] font-open_sans tracking-[16%]">

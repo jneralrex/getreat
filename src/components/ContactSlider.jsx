@@ -48,7 +48,7 @@ const ContactSlider = () => {
   };
 
   return (
-    <div className="h-[350px] md:h-[580px] w-full relative group">
+    <div className="h-[350px] md:h-screen w-full relative group">
       <div
         className="w-full h-full bg-center bg-cover duration-500 relative"
         style={{

@@ -14,19 +14,19 @@ const Provider = () => {
         <Nav />
         <div className="sm:max-w-[100%] md:max-w-[100%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
 
-        <div className="flex flex-col gap-2 md:pl-12 md:pt-14 lg:pt-14">
-          <p className="font-extrabold text-white text-[13px] sm:text-[20px] md:text-[45px] max-w-[300px] sm:max-w-[350px] md:max-w-[530px] md:leading-[61.28px] tracking-[3px]">
+        <div className="flex flex-col gap-2 md:pt-14 lg:pt-14">
+          <p className="font-extrabold text-white text-[13px] sm:text-[20px] md:text-[45px] max-w-[300px] sm:max-w-[350px] md:max-w-[700px] md:leading-[61.28px] tracking-[3px]">
             Join the Geetreat Network of Health Providers
           </p>
-          <p className="sm:tracking-[1px] text-[10px] md:text-[14px] text-white font-[600] max-w-[400px] md:max-w-[415px] lg:max-w-[680px] leading-[20.51px]">
+          <p className="sm:tracking-[2px] text-[10px] md:text-[14px] text-white font-[400] max-w-[400px] md:max-w-[415px] lg:max-w-[550px] leading-[20.51px]">
             Register with Getreat today and become part of a trusted network
             that connects health professionals with individuals seeking quality
             care. Gain access to a wide array of tools and resources designed to
             help you grow your practice and deliver exceptional patient
             experineces.
           </p>
-          <p className="tracking-[1px] text-[10px] sm:text-[12px] md:text-[14px] text-white font-[600] max-w-[400px] sm:max-w-[350px] md:max-w-full leading-[20.51px]">
-            Sign up now and start making a difference in more lives
+          <p className="tracking-[2px] text-[10px] sm:text-[12px] md:text-[14px] text-white font-[400] max-w-[400px] sm:max-w-[350px] md:max-w-full leading-[20.51px]">
+            Sign up now and start making a difference in more lives!
           </p>
           <Link to="/provider-reg">
           <div className="bg-[#408561] p-2 md:h-10  md:p-2 rounded-md max-w-[170px] text-center text-white text-[13px] italic">
@@ -38,7 +38,7 @@ const Provider = () => {
       </div>
 
       <div className="sm:max-w-[100%] md:max-w-[90%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
-      <div className="flex w-full justify-center my-[20px] md:my-[30px]">
+      <div className="flex w-full justify-center my-[20px] md:my-[30px] md:mt-[100px]">
         <p className="font-[800] md:text-[36px] tracking-[3px] md:max-w-[400px] text-center">
           What you Stand to Gain as a Provider
         </p>

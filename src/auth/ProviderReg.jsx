@@ -6,8 +6,10 @@ import { Link } from "react-router-dom";
 
 const ProviderReg = () => {
   return (
-    <div className="flex flex-row w-full px-5 md:pl-20 md:pr-5 py-5 min-h-screen gap-10 font-spartan">
-      <div className="flex flex-col gap-2 w-full ml-auto mr-auto max-w-[400px]  sm:max-w-[600px]">
+    <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[95%] ml-auto">
+
+    <div className="flex flex-row md:pl-[30px] py-5 min-h-screen  font-spartan gap-10">
+      <div className="flex flex-col gap-2 w-full max-w-[500px]">
         <div className="flex flex-col gap-2 justify-center items-center lg:justify-start lg:items-start">
           <img src={logo} alt="Logo" className="w-20" />
           <p className="font-semibold text-2xl text-[#4A4A4A]">
@@ -155,13 +157,14 @@ const ProviderReg = () => {
           </p>
         </div>
       </div>
-      <div className="w-full hidden md:block ">
+      <div className="w-full hidden md:block ml-auto">
         <img
           src={globe}
           alt=""
-          className="min-h-screen h-full w-full object-cover rounded-[10px]"
+          className="min-h-screen h-full w-full object-cover rounded-[10px] max-w-[700px]"
         />
       </div>
+    </div>
     </div>
   );
 };
