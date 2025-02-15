@@ -31,7 +31,7 @@ const ContactUs = () => {
 
       <div className="sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
       <div className="flex flex-col items-center mb-[50px]">
-        <div className=" w-full sm:max-w-[980px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 font-spartan  items-center p-8 rounded-[20px] lg:shadow-[15px_15px_20px_rgba(0,0,0,0.3),-5px_-5px_10px_rgba(0,0,0,0.1)] my-[50px] tracking-[2px] gap-2 lg:gap-0">
+        <div className=" w-full sm:max-w-[980px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 font-spartan  items-center p-8 rounded-[20px] lg:shadow-[7px_7px_10px_rgba(0,0,0,0.3),-5px_-5px_10px_rgba(0,0,0,0.1)] my-[50px] tracking-[2px] gap-2 lg:gap-0">
           <div className="flex flex-col justify-center items-center lg:rounded-none rounded-lg lg:shadow-none shadow-[5px_5px_10px_rgba(0,0,0,0.1),-5px_-5px_10px_rgba(0,0,0,0.1)] p-3 lg:p-0 w-full">
             <img src={loc} alt="" />
             <p className="text-[18px] font-[400] leading-[16.85px] tracking-[16%] mt-[10px] mb-[20px]">
@@ -160,7 +160,7 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="w-full flex flex-col items-center">
-            <p className="font-poppins font-[600] text-[15px] sm:text-[30px] mt-[50px]  text-center max-w-[650px] ">
+            <p className="font-poppins font-[600] text-[15px] sm:text-[30px] mt-[50px]  mb-[50px]  text-center max-w-[650px] ">
               Subscribe to our newsletter to get latest news and updates
             </p>
             <div className="flex justify-center items-center">
