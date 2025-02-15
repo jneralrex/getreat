@@ -23,11 +23,11 @@ const LandingPage = () => {
        <Nav/>
        <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
 
-        <div className="flex flex-col gap-8 pt-6  md:pt-14 ">
-          <p className=" tracking-[3px] font-extrabold text-white sm:text-[20px] md:text-[30px] xl:text-[30px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] lg:max-w-[450px] md:leading-[50.28px] font-open_sans">
+        <div className="flex flex-col lg:gap-4 md:pt-14 ">
+          <p className=" tracking-[3px] font-extrabold text-white sm:text-[20px] md:text-[30px] xl:text-[30px] max-w-[300px] sm:max-w-[350px] md:max-w-[650px] lg:max-w-[450px] md:leading-[50.28px] font-open_sans">
             Your Partner in Pregnancy, Parenting, and Beyond
           </p>
-          <p className="tracking-[2px] text-[14px] text-white font-[400] max-w-[400px] sm:max-w-[350px] md:max-w-[480px] leading-[24.51px] font-open_sans">
+          <p className="tracking-[2px] text-[12px] md:text-[14px] text-white font-[400] max-w-[400px] sm:max-w-[350px] md:max-w-[480px] leading-[24.51px] font-open_sans">
             Advancing the Motherhood Experience: Pregnancy Care, Baby Support,
             and Fertility Enhancement
           </p>
@@ -41,9 +41,9 @@ const LandingPage = () => {
       </div>
     
     <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto p-2">
-    <div className="flex flex-col justify-evenly">
+    <div className="flex flex-col justify-evenly p-2 lg:p-0">
 
-        <div className="flex flex-row items-center mt-[100px] justify-evenly">
+        <div className="flex flex-row items-center mt-[50px] md:mt-[100px] justify-evenly">
           <div className="">
             <img src={babyscanclock} alt="" className="hidden md:block"/>
           </div>

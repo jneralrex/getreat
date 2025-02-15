@@ -16,7 +16,7 @@ const AboutUs = () => {
         <Nav />
         <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
 
-        <div className="flex flex-col gap-5 md:pt-14 lg:pt-14">
+        <div className="flex flex-col gap-2 md:gap-5 md:pt-14 lg:pt-14">
           <p className="font-extrabold text-white sm:text-[25px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[800px] md:leading-[50.28px] md:tracking-[3px]">
             Healthcare Service is Faster and Convenient with Getreat{" "}
           </p>
@@ -35,7 +35,7 @@ const AboutUs = () => {
 
       <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
       <div className="px-[20px] md:px-20 font-open_sans tracking-[16%]">
-          <div className="w-full text-center my-5 mt-[50px]">
+          <div className="w-full text-center my-5 md:mt-[50px]">
             <p className="font-[800] leading-[49.03px] sm:text-[18px] md:text-[20px] lg:text-[36px]">
               Our Story
             </p>
@@ -47,7 +47,7 @@ const AboutUs = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-10 mt-[100px]">
+          <div className="flex flex-col md:gap-10 lg:mt-[100px]">
             <div>
                   <div className="font-[800] leading-[49.03px] md:text-[18px] lg:text-[36px]">
                     Mission

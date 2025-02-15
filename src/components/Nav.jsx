@@ -8,7 +8,7 @@ const Nav = () => {
     <div className="sm:max-w-[100%] md:max-w-[100%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
       <div className="flex items-center justify-between gap-5">
         <Link to="/">
-          <img src={logo} alt="Logo" className="h-[100px]" />
+          <img src={logo} alt="Logo" className="h-[50px] md:h-[100px]" />
         </Link>
 
         <div className="flex justify-evenly gap-[5px] text-white lg:gap-0 items-center text-[7.7px] sm:text-[14px] italic font-semibold">

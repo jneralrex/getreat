@@ -20,7 +20,7 @@ const Privacy = () => {
       <div className="absolute inset-0 px-4">
         <Nav />
         <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
-          <div className="flex flex-col gap-8 pt-6  lg:mt-[100px] md:pt-14 ">
+          <div className="flex flex-col md:gap-8 lg:mt-[100px] md:pt-10 ">
             <p className=" tracking-[3px] font-extrabold text-white sm:text-[20px] md:text-[30px] xl:text-[30px] max-w-[200px] sm:max-w-[350px] md:max-w-[650px] lg:max-w-full md:leading-[20.28px] font-open_sans">
               Your Privacy, Our Priority
             </p>

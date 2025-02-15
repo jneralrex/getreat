@@ -18,14 +18,14 @@ const Provider = () => {
           <p className="font-extrabold text-white text-[13px] sm:text-[20px] md:text-[45px] max-w-[300px] sm:max-w-[350px] md:max-w-[700px] md:leading-[61.28px] tracking-[3px]">
             Join the Geetreat Network of Health Providers
           </p>
-          <p className="sm:tracking-[2px] text-[10px] md:text-[14px] text-white font-[400] max-w-[400px] md:max-w-[415px] lg:max-w-[550px] leading-[20.51px]">
+          <p className=" sm:tracking-[2px] text-[10px] md:text-[14px] text-white font-[400] max-w-[400px] md:max-w-[415px] lg:max-w-[550px] leading-[20.51px]">
             Register with Getreat today and become part of a trusted network
             that connects health professionals with individuals seeking quality
             care. Gain access to a wide array of tools and resources designed to
             help you grow your practice and deliver exceptional patient
             experineces.
           </p>
-          <p className="tracking-[2px] text-[10px] sm:text-[12px] md:text-[14px] text-white font-[400] max-w-[400px] sm:max-w-[350px] md:max-w-full leading-[20.51px]">
+          <p className="sm:tracking-[2px] text-[10px] sm:text-[12px] md:text-[14px] text-white font-[400] max-w-[400px] sm:max-w-[350px] md:max-w-full leading-[20.51px]">
             Sign up now and start making a difference in more lives!
           </p>
           <Link to="/provider-reg">
