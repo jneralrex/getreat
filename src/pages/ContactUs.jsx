@@ -15,7 +15,7 @@ const ContactUs = () => {
         <Nav />
         <div className="sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
 
-        <div className="flex flex-col gap-2 md:pl-12 md:pt-14 lg:pt-24">
+        <div className="flex flex-col gap-2 md:pt-14 lg:pt-24">
           <p className=" tracking-[3px] font-extrabold text-white sm:text-[30px] md:text-[45px] max-w-[200px] sm:max-w-[350px] md:max-w-[400px] md:leading-[61.28px] font-open_sans">
             Contact us at Getreat
           </p>
