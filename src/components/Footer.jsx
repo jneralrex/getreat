@@ -5,6 +5,7 @@ import facebook from "../assets/images/landingpage/facebook.png";
 import whatsapp from "../assets/images/landingpage/whatsapp.png";
 import insta from "../assets/images/landingpage/insta.png";
 import flag from "../assets/images/landingpage/flag.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="font-open_sans tracking-[2px] w-full bg-[#408561] px-7 md:px-24 py-3 flex flex-col gap-3 overflow-hidden">
@@ -50,7 +51,7 @@ const Footer = () => {
         <ul className="flex gap-3">
           <li>About Us</li>
           <li>Safety & Compliance</li>
-          <li>Privacy Policy</li>
+          <li><Link to="privacy">Privacy Policy</Link></li>
         </ul>
         <ul className="flex gap-3">
           <li>Copyright @ 2024.</li>

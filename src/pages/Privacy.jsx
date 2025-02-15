@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Nav from "../components/Nav";
 import PrivacySlider from "../components/PrivacySlider";
 import { Link } from "react-router-dom";
@@ -11,6 +11,9 @@ const Privacy = () => {
           section.scrollIntoView({ behavior: "smooth", block: "start" });
         }
       };
+      useEffect(()=>{
+        handleScroll("top")
+      },[])
   return (
     <div id="top">
       <PrivacySlider />
