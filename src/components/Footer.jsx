@@ -51,7 +51,7 @@ const Footer = () => {
         <ul className="flex gap-3">
           <li>About Us</li>
           <li>Safety & Compliance</li>
-          <li><Link to="privacy">Privacy Policy</Link></li>
+          <li><Link to="/privacy">Privacy Policy</Link></li>
         </ul>
         <ul className="flex gap-3">
           <li>Copyright @ 2024.</li>
