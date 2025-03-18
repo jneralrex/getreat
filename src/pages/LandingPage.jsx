@@ -3,6 +3,7 @@ import Slider from "../components/Slider";
 import babyscanclock from "../assets/images/landingpage/babyscanclock.png";
 import dr from "../assets/images/landingpage/dr.png";
 import group1 from "../assets/images/landingpage/group1.png";
+import group from "../assets/images/auth/group.png";
 import healthy from "../assets/images/landingpage/healthy.png";
 import pastor from "../assets/images/landingpage/pastor.png";
 import nurse from "../assets/images/landingpage/nurse.png";
@@ -43,15 +44,15 @@ const LandingPage = () => {
     <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto p-2">
     <div className="flex flex-col justify-evenly p-2 lg:p-0">
 
-        <div className="flex flex-row items-center mt-[50px] md:mt-[100px] justify-evenly">
+        <div className="flex flex-row items-center mt-[100px] justify-evenly">
           <div className="">
-            <img src={babyscanclock} alt="" className="hidden md:block"/>
+            <img src={babyscanclock} alt="" className="hidden lg:block"/>
           </div>
           <div className="flex flex-col gap-4">
-            <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[400px] font-open_sans tracking-[16%]">
+            <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] w-full lg:max-w-[450px] font-open_sans tracking-[3px]">
               What We Provide For Expecting Mothers
             </p>
-            <ul className=" font-open_sans flex flex-col gap-[20px] md:max-w-[450px] lg:max-w-[380px] mt-4 text-[14px] md:text-[18px] lg:text-[18px] tracking-[16%]">
+            <ul className=" font-open_sans flex flex-col gap-[10px] md:max-w-[450px] lg:max-w-[500px] mt-4 text-[14px] md:text-[18px] lg:text-[18px] tracking-[2px] text-[#4A4A4A]">
               <li className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-1/4 md:before:top-[14px] before:-translate-y-1/2 before:w-4 before:h-4 before:bg-orange-500 before:rounded-sm">
                 Get Daily tips, motivation and advice tailored for every stage,
                 to monitor your baby development and keep track of your health.
@@ -73,12 +74,12 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[100px] justify-evenly">
-          <div className="lg:max-w-[390px] flex flex-col gap-3 lg:mt-[150px]">
-            <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[400px] font-open_sans tracking-[2px]">
+        <div className="flex flex-row items-center mt-[100px] justify-evenly">
+          <div className="lg:max-w-[600px] flex flex-col gap-3">
+            <p className="font-extrabold text-[18px] md:text-[36px] xl:text-[36px] md:leading-[49.03px] w-full lg:max-w-[500px] font-open_sans tracking-[2px] relative lg:mt-[150px]">
               Our Access Is Timeless: Anytime, Anywhere
             </p>
-            <p className="text-[14px] md:text-[18px] lg:text-[15px] font-open_sans leading-[24.51px] tracking-[1px]">
+            <p className="text-[14px] md:text-[14px] xl:text-[18px] font-open_sans leading-[24.51px] tracking-[2px] text-[#4A4A4A]">
               The modern day demands an empowered freedom to stay connected to
               continous healthcare support. With our platform, you can access
               high-quality healthcare services anywhere and anytime-whether
@@ -94,7 +95,7 @@ const LandingPage = () => {
               <img src={group1} alt="" className="" />
             </div>
             <div className="flex flex-col items-center hidden lg:block">
-              <div className="">
+              <div className="-top-10 relative">
                 <img src={healthy} alt="" />
               </div>
               <div className=" h-[220px]">
@@ -104,7 +105,7 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[100px] justify-evenly gap-3 ">
+        <div className="lg:flex flex-row items-center mt-[100px] justify-evenly gap-3">
           <div className="flex flex-row items-center justify-between gap-4">
             <div className="flex flex-col items-center hidden lg:block">
               <div className="">
@@ -115,14 +116,14 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="h-[250px] hidden lg:block">
-              <img src={group1} alt="" className="" />
+              <img src={group} alt="" className="max-h-[420px]" />
             </div>
           </div>
-          <div className="lg:max-w-[390px] lg:mt-20 flex flex-col gap-3 font-open_sans">
-            <p className="tracking-[16%] font-extrabold text-[18px] md:text-[30px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[500px]">
+          <div className="lg:max-w-[427px] lg:mt-20 flex flex-col gap-3 font-open_sans ">
+            <p className="xl:mt-[70px] tracking-[2px] font-extrabold text-[18px] md:text-[36px] lg:text-[30px] md:leading-[49.03px] w-full lg:max-w-[500px]">
               We Connect, We Build: Trusted Communities
             </p>
-            <p className="tracking-[16%] text-[14px] md:text-[18px] lg:text-[17px]">
+            <p className="tracking-[2px] text-[#4A4A4A] text-[14px] md:text-[14px] xl:text-[18px]">
               Be part of trusted individuals that provides share knowledge and
               provide the best support your health journey is supported by more
               than just healthcare professionals-it's about connecting with a
@@ -134,12 +135,12 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[100px] justify-evenly font-open_sans gap-3">
-          <div className="lg:max-w-[390px]  flex flex-col">
-            <p className="tracking-[16%] font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[400px]">
+        <div className="lg:flex flex-row items-center mt-[100px] justify-evenly font-open_sans gap-3">
+          <div className=" flex flex-col">
+            <p className="tracking-[2px] font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] w-full lg:max-w-[500px]">
               Easy To Reach Your Best Healthcare Provider
             </p>
-            <p className="tracking-[16%] text-[14px] md:text-[18px] lg:text-[17px]">
+            <p className=" text-[14px] md:text-[18px] lg:text-[17px]  tracking-[2px] text-[#4A4A4A]">
               Treat with your preffered provider available anytime.
             </p>
           </div>
@@ -158,15 +159,15 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center lg:mt-[200px] justify-evenly font-open_sans">
-          <div className="hidden sm:block">
+        <div className="flex flex-row items-center mt-[100px] lg:mt-[200px] justify-evenly font-open_sans">
+          <div className="hidden lg:block">
             <img src={nurse} alt="" />
           </div>
-          <div className="flex flex-col gap-4">
-            <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] md:max-w-[450px] lg:max-w-[400px] tracking-[16%]">
-              What We Provide For Expecting Mothers
+          <div className="flex flex-col gap-4 lg:ml-20">
+            <p className="font-extrabold text-[18px] md:text-[36px] md:leading-[49.03px] w-full lg:max-w-[510px] tracking-[3px]">
+             Earn more As A Provider With Getreat
             </p>
-            <ul className=" tracking-[16%] flex flex-col gap-[20px] sm:max-w-[300px] md:max-w-[450px] lg:max-w-[380px] mt-4 text-[14px] md:text-[18px] lg:text-[18px]">
+            <ul className=" tracking-[2px] flex flex-col gap-[10px] w-full lg:max-w-[380px] mt-4 text-[14px] md:text-[18px] lg:text-[18px]">
               <li className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-1/4 md:before:top-[14px] before:-translate-y-1/2 before:w-4 before:h-4 before:bg-orange-500 before:rounded-sm">
                 Gain presence online.
               </li>
@@ -192,12 +193,12 @@ const LandingPage = () => {
         </div>
 
       </div>
-      <div className=" md:tracking-[3px] lg:mt-[100px] w-full flex justify-center mb-[50px] font-extrabold text-[18px] lg:text-[36px] leading-[49.03px] font-open_sans">
-        Testimony From Great Users
-      </div>
     </div>
     
       <div className="w-full bg-gray-500/20 p-4 pl-0 tracking-[16%] font-open_sans">
+      <div className=" md:tracking-[3px] mt-[50px] w-full flex justify-center mb-[50px] font-extrabold text-[18px] lg:text-[36px] leading-[49.03px] font-open_sans">
+        Testimony From Great Users
+      </div>
         <TestimonySlider />
       </div>
 

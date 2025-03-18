@@ -47,7 +47,7 @@ const Privacy = () => {
           <span className="font-[600] text-black">("Services")</span>, such as
           when you:{" "}
         </div>
-        <ul className=" font-open_sans flex flex-col gap-[20px] md:max-w-[450px] lg:max-w-[700px] mt-4 text-[14px] md:text-[18px] lg:text-[18px] tracking-[16%]">
+        <ul className=" font-open_sans flex flex-col gap-[10px] md:max-w-[450px] lg:max-w-[700px] mt-4 text-[14px] md:text-[18px] lg:text-[18px] tracking-[16%]">
           <li className="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-1/4 md:before:top-[14px] before:-translate-y-1/2 before:w-4 before:h-4 before:bg-orange-500 before:rounded-sm">
             Visit our website at{" "}
             <span className="text-[#408561]">getreat.com</span>, or any website

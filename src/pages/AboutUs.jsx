@@ -178,11 +178,11 @@ const AboutUs = () => {
 
       <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
       <img src={office} alt="" className="rounded-lg" />
-        <div className="w-full flex justify-center py-10 font-extrabold text-[18px] lg:text-[36px] font-open_sans tracking-[16%] leading-[49.03px]">
-          Testimony From Great Users
-        </div>
       </div>
       <div className="w-full bg-gray-500/20 p-10 pl-0 font-open_sans tracking-[16%]">
+        <div className="w-full flex justify-center mb-[50px] mt-[50px] font-extrabold text-[18px] lg:text-[36px] font-open_sans tracking-[16%] leading-[49.03px]">
+          Testimony From Great Users
+        </div>
         <TestimonySlider />
       </div>
       <Footer />
