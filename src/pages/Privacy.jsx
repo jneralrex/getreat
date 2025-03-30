@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import PrivacySlider from "../components/PrivacySlider";
 import { Link } from "react-router-dom";
 import { FaArrowUp } from "react-icons/fa";
+import Footer from "../components/Footer";
 
 const Privacy = () => {
     const handleScroll = (id) => {
@@ -34,7 +35,7 @@ const Privacy = () => {
           </div>
         </div>
       </div>
-      <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto p-2 lg:mt-[50px]  text-[14px] md:text-[18px] lg:text-[18px]">
+      <div className="sm:max-w-[90%] md:max-w-[80%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto p-2 lg:mt-[50px]  text-[14px] md:text-[18px] lg:text-[18px] mb-20">
         <div className="max-w-[650px] leading-[26px]">
           This privacy notice for Getreat Technology Limited ( doing business as{" "}
           <span className="font-[600] text-black">Getreat </span> ) (
@@ -337,6 +338,7 @@ const Privacy = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

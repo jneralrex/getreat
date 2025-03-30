@@ -33,7 +33,11 @@ const LandingPage = () => {
             and Fertility Enhancement
           </p>
          <Link to="/sign-up">
-         <div className="bg-[#408561] h-10  p-2 rounded-md max-w-[170px] text-center text-white text-[13px] italic font-open_sans">
+         <div 
+          //  className="bg-[#408561] sm:h-10 flex items-center justify-center px-4 py-2 rounded-md hover:bg-green-700"
+
+         className="bg-[#408561] h-10 font-semibold p-2 rounded-md max-w-[170px] text-center text-white text-[14px] italic"
+         >
             Join Our Community
           </div>
          </Link>
@@ -184,8 +188,8 @@ const LandingPage = () => {
             </ul>
             <div className="flex justify-center sm:justify-start">
             <Link to="/sign-up">
-            <div className="bg-[#408561] h-10  p-2 rounded-md max-w-[170px] text-center text-white text-[13px] italic mt-3">
-                Join Our Community
+            <div className="bg-[#408561] h-10  p-2 rounded-md w-[150px] text-center text-white text-[13px] italic mt-3">
+                Register
               </div>
             </Link>
             </div>
@@ -195,7 +199,7 @@ const LandingPage = () => {
       </div>
     </div>
     
-      <div className="w-full bg-gray-500/20 p-4 pl-0 tracking-[16%] font-open_sans">
+      <div className="w-full bg-gray-500/20 p-4 tracking-[16%] font-open_sans">
       <div className=" md:tracking-[3px] mt-[50px] w-full flex justify-center mb-[50px] font-extrabold text-[18px] lg:text-[36px] leading-[49.03px] font-open_sans">
         Testimony From Great Users
       </div>

@@ -49,8 +49,8 @@ const Footer = () => {
       </div>
       <div className="text-white flex justify-between text-[10px] sm:text-[14px] w-full">
         <ul className="flex gap-3">
-          <li>About Us</li>
-          <li>Safety & Compliance</li>
+          <li><Link to="/about">About Us</Link></li>
+          <li><Link to="/safety">Safety & Compliance</Link></li>
           <li><Link to="/privacy">Privacy Policy</Link></li>
         </ul>
         <ul className="flex gap-3">
@@ -58,13 +58,8 @@ const Footer = () => {
           <li>All rights reserved</li>
         </ul>
       </div>
-      <div className="text-white flex justify-between text-[10px] sm:text-[14px] w-full">
-        <ul className="flex gap-3">
-          <li>Blog</li>
-          <li>Cookie Policy</li>
-          <li>Terms of Use</li>
-        </ul>
-        <ul className="flex items-center sm:mr-[66px] md:mr-[66px] sm:w-[175px] md:max-w-[240px]">
+      <div className="text-white text-[10px] sm:text-[14px] w-full">
+        <ul className="flex justify-center w-full items-center">
           <li>Web in Nigeria</li>
           <li>
             <img src={flag} alt="" className="w-[20px]" />

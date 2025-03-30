@@ -31,23 +31,12 @@ const ContactUs = () => {
 
       <div className="sm:max-w-[90%] md:max-w-[90%] lg:max-w-[90%] xl:w-[100%] 2xl:max-w-[70%] m-auto">
       <div className="flex flex-col items-center mb-[50px]">
-        <div className=" w-full sm:max-w-[980px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 font-spartan  items-center p-8 rounded-[20px] lg:shadow-[7px_7px_10px_rgba(0,0,0,0.3),-5px_-5px_10px_rgba(0,0,0,0.1)] my-[50px] tracking-[2px] gap-2 lg:gap-0">
-          <div className="flex flex-col justify-center items-center lg:rounded-none rounded-lg lg:shadow-none shadow-[5px_5px_10px_rgba(0,0,0,0.1),-5px_-5px_10px_rgba(0,0,0,0.1)] p-3 lg:p-0 w-full">
-            <img src={loc} alt="" />
-            <p className="text-[18px] font-[400] leading-[16.85px] tracking-[16%] mt-[10px] mb-[20px]">
-              Location
-            </p>
-            <p className="leading-[12.88px] tracking-[16%] text-[14px] font-semibold font-[#4A4A4A]">
-              9, Samoa streat, Maitama Abuja, Nigeria
-            </p>
-            <p className="text-[#F67813] text-[18px] font-[600] leading-[16.85px] mt-[20px]">
-              FIND US ON MAP
-            </p>
-          </div>
+        <div className=" w-full sm:max-w-[980px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 font-spartan  items-center p-8 rounded-[20px] lg:shadow-[7px_7px_10px_rgba(0,0,0,0.3),-5px_-5px_10px_rgba(0,0,0,0.1)] my-[50px] tracking-[2px] gap-2 lg:gap-0">
+        
           <div className="flex flex-col justify-center items-center lg:rounded-none  rounded-lg lg:shadow-none shadow-[5px_5px_10px_rgba(0,0,0,0.1),-5px_-5px_10px_rgba(0,0,0,0.1)] p-2 lg:p-0 w-full">
             <img src={time} alt="" />
             <p className="text-[18px] font-[400] leading-[16.85px] mt-[10px] mb-[20px]">
-              Office Hour
+              Consultation Hours
             </p>
             <p className="leading-[12.88px] tracking-[16%] text-[14px] font-semibold font-[#4A4A4A]">
               Mondays-Fridays

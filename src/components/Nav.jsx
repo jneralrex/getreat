@@ -28,22 +28,22 @@ const Nav = () => {
               About us <IoChevronDownSharp className="text-[#07b65b]" />
             </button>
             <div className="absolute left-0 hidden shadow-lg z-10 group-hover:block">
-              <div className="rounded-lg md:w-[150px] bg-black/90 p-4 flex flex-col gap-2 text-white text-center">
+              <div className="rounded-lg md:w-[150px] bg-black/90 p-4 flex flex-col gap-2 text-white text-start">
                 <Link
                   to="/about"
-                  className="block text-[10px] md:text-[14px] hover:text-[#c3671a]"
+                  className="block text-[10px] md:text-[12px] hover:text-[#c3671a]"
                 >
                   About us
                 </Link>
                 <Link
                   to="/safety"
-                  className="block text-[10px] md:text-[14px] hover:text-[#c3671a]"
+                  className="block text-[10px] md:text-[12px] hover:text-[#c3671a]"
                 >
                   Safety & Compliance
                 </Link>
                 <Link
                   to="/contact"
-                  className="block text-[10px] md:text-[14px] hover:text-[#c3671a]"
+                  className="block text-[10px] md:text-[12px] hover:text-[#c3671a]"
                 >
                   Contact Us
                 </Link>
