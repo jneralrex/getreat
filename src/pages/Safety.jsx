@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import Nav from "../components/Nav";
-import { Link } from "react-router-dom";
-import { FaArrowUp } from "react-icons/fa";
 import SafetySlider from "../components/SafetySlider";
 import Footer from "../components/Footer";
 

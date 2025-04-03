@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/images/landingpage/logo.png";
 import signUpBanner from "../assets/images/auth/group.png";
 import google from "../assets/images/auth/gogle.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import SignUpModal from "../components/SignUpModal";
+
 const SignUp = () => {
+  const navigate = useNavigate();
+  const [signUpModal, setSignUpModal] = useState(false);
+
+  const showSignUpModal = () => {
+    setSignUpModal(true);
+  };
+
+  const closeSignUpModal = () => {
+    setSignUpModal(false);
+    navigate(-1);
+  };
+
   return (
     <div
       className="w-full flex justify-center inset-0 py-5"
@@ -20,7 +34,7 @@ const SignUp = () => {
             <p className="font-semibold text-2xl text-[#4A4A4A]">
               Create account
             </p>
-            
+
           </div>
           <div className="w-full flex justify-center items-center gap-2 ">
             <img src={google} alt="" />
@@ -29,11 +43,11 @@ const SignUp = () => {
             </p>
           </div>
           <div className="w-full justify-center items-center flex">
-          <div className="lg:w-[400px] flex items-center gap-2 lg:gap-5 w-[400px]">
-            <div className="flex-1 border-t border-[#4A4A4A]" />
-            <p className="font-light text-sm text-[#4A4A4A]">OR</p>
-            <div className="flex-1 border-t border-[#4A4A4A]" />
-          </div>
+            <div className="lg:w-[400px] flex items-center gap-2 lg:gap-5 w-[400px]">
+              <div className="flex-1 border-t border-[#4A4A4A]" />
+              <p className="font-light text-sm text-[#4A4A4A]">OR</p>
+              <div className="flex-1 border-t border-[#4A4A4A]" />
+            </div>
           </div>
           <form className="flex flex-col gap-1">
             <div className="flex flex-col gap-1">
@@ -149,22 +163,30 @@ const SignUp = () => {
               </div>
             </div>
             <div className="w-full">
-            <Link to="/login">
-              <button className="bg-[#408561] w-full font-extrabold text-white rounded-lg p-2 hover:bg-[#356948] max-w-[400px] sm:max-w-full">
-              Create
+              {/* <Link to="/login"> */}
+              <button className="bg-[#408561] w-full font-extrabold text-white rounded-lg p-2 hover:bg-[#356948] max-w-[400px] sm:max-w-full" onClick={(event) => {
+                event.preventDefault(); // Prevent form submission since there is no action defined for the form
+                showSignUpModal();
+              }}>
+                Create
               </button>
-              </Link>
+              {/* </Link> */}
             </div>
           </form>
           <div className="w-full flex justify-center items-center mt-3">
             <p className="font-semibold text-sm text-[#4A4A4A]">
               Already have an account?{" "}
               <Link to="/login">
-              <span className="text-[#f67813]">Sign In</span>
+                <span className="text-[#f67813]">Sign In</span>
               </Link>
             </p>
           </div>
         </div>
+      </div>
+      <div>
+        {/* Sign Up Modal Component */}
+        {signUpModal && <SignUpModal closeModal={closeSignUpModal} />}
+
       </div>
     </div>
   );
