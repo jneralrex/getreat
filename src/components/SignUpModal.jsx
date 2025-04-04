@@ -14,7 +14,7 @@ const SignUpModal = ({ closeModal }) => {
         <div className="flex flex-col items-center justify-center gap-5 max-w-[652px] mx-auto">
           <img src={success} alt="" className="h-[150px]"/>
           <p className="font-semibold">Account Created!</p>
-          <p className="text-center font-montserrat max-w-[560px] leading-[30px]">We’re excited to have you join us. You’ll receive personalized feedback shortly, guiding you on how to fully engage with our platform, and make the most of all the features designed to support your needs. 
+          <p className="text-[12px] md:text-[14px] lg:text-[16px] text-center font-montserrat max-w-[560px] leading-[30px]">We’re excited to have you join us. You’ll receive personalized feedback shortly, guiding you on how to fully engage with our platform, and make the most of all the features designed to support your needs. 
           Welcome aboard, and we look forward to helping you every step of the way!</p>
           
           </div>

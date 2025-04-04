@@ -3,7 +3,7 @@ import Slider from "../components/Slider";
 import babyscanclock from "../assets/images/landingpage/babyscanclock.png";
 import dr from "../assets/images/landingpage/dr.png";
 import group1 from "../assets/images/landingpage/group1.png";
-import group from "../assets/images/auth/group.png";
+import jump from "../assets/images/landingpage/jump.png";
 import healthy from "../assets/images/landingpage/healthy.png";
 import pastor from "../assets/images/landingpage/pastor.png";
 import nurse from "../assets/images/landingpage/nurse.png";
@@ -78,8 +78,8 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-row items-center mt-[100px] justify-evenly">
-          <div className="lg:max-w-[600px] flex flex-col gap-3">
+        <div className="flex flex-row gap-10 items-center mt-[100px] justify-evenly">
+          <div className="lg:max-w-[450px] flex flex-col gap-3">
             <p className="font-extrabold text-[18px] md:text-[36px] xl:text-[36px] md:leading-[49.03px] w-full lg:max-w-[500px] font-open_sans tracking-[2px] relative lg:mt-[150px]">
               Our Access Is Timeless: Anytime, Anywhere
             </p>
@@ -120,10 +120,10 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="h-[250px] hidden lg:block">
-              <img src={group} alt="" className="max-h-[420px]" />
+              <img src={jump} alt="" className="max-h-[420px]" />
             </div>
           </div>
-          <div className="lg:max-w-[427px] lg:mt-20 flex flex-col gap-3 font-open_sans ">
+          <div className="lg:max-w-[450px] lg:mt-20 flex flex-col gap-3 font-open_sans ">
             <p className="xl:mt-[70px] tracking-[2px] font-extrabold text-[18px] md:text-[36px] lg:text-[30px] md:leading-[49.03px] w-full lg:max-w-[500px]">
               We Connect, We Build: Trusted Communities
             </p>

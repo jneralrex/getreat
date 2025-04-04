@@ -20,11 +20,6 @@ const slides = [
       " Congratulations to me l've been delivered of a bouncy baby boy! I sincerely want to thanks d admin and the gyna's in the house for ur support during this period.safe delivery to the expectant moms.",
   },
   {
-    name: "Michael Brown",
-    testimony:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, facilis modi in incidunt voluptas omnis, neque commodi beatae consectetur quaerat itaque tempore, earum sapiente corporis iure impedit non quia minus quae porro iste fugiat.",
-  },
-  {
     name:"Yarobi",
     testimony:
     "Am using this time to give thanks to God almight I think it was like before when I did the first one last week until I do this one today and it's real That's why I wish to give thanks to Allah by posting this testimony to you for let others know what God has done for me and inshallah bikudratullah rahaman all TTC mother will soon have this kind of joy and testimony inshallah 🙏🙏🙏🙏 Thanks so much doctor for been there for me since all this while may God almighty Allah bless you always and bless your hurtle inshallah 🙏🙏 You will not lack joy and happiness in your life Amin"
@@ -54,17 +49,17 @@ const TestimonySlider = () => {
         >
           {slides.map((slide, index) => (
             <div key={index} className="w-full flex-shrink-0">
-              <div className="bg-white shadow-lg rounded-lg p-5 flex flex-col items-center text-center w-full h-[400px]">
+              <div className="bg-white shadow-lg rounded-lg p-[80px] flex flex-col items-center text-center w-full h-[400px]">
                 <div className="w-full flex justify-start">
                   <img src={open} className="size-10" alt="open quote" />
                 </div>
-                <p className="text-gray-600 text-[10px] lg:text-sm sm:text-base lg:max-w-[605px]">
+                <p className="text-gray-600 text-[10px] lg:text-[16px] sm:text-base lg:max-w-[948px] font-open_sans tracking-[2px]">
                   {slide.testimony}
+                <h4 className="mt-4 text-black text-lg font-semibold">{slide.name}</h4>
                 </p>
                 <div className="w-full flex justify-end">
-                  <img src={close} className="size-10" alt="close quote" />
+                  <img src={close} className="size-10 mt-[-60px]" alt="close quote" />
                 </div>
-                <h4 className="mt-4 text-lg font-semibold">{slide.name}</h4>
               </div>
             </div>
           ))}

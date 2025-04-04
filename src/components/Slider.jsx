@@ -14,18 +14,6 @@ const Slider = () => {
       images: nurse,
       title: "Image Two",
     },
-    {
-      images: banner,
-      title: "Image Three",
-    },
-    {
-      images: banner,
-      title: "Image Four",
-    },
-    {
-      images: banner,
-      title: "Image Five",
-    },
   ];
 
   const [currenIndex, setCurrentIndex] = useState(0);

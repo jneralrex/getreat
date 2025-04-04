@@ -8,14 +8,14 @@ import flag from "../assets/images/landingpage/flag.png";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="font-open_sans tracking-[2px] w-full bg-[#408561] px-7 md:px-24 py-3 flex flex-col gap-3 overflow-hidden">
+    <footer className="font-open_sans tracking-[2px] w-full bg-[#408561] px-7 md:px-24 py-3 flex flex-col gap-3 overflow-hidden font-semibold">
       <div className="grid grid-cols-3 md:flex w-full md:justify-between items-center text-[12px]">
-        <img src={footerlogo} alt="" className=" w-[80px]" />
+        <img src={footerlogo} alt="" className=" w-[100px]" />
         <div className="text-white text-[10px] sm:text-[12px] md:text-[14px]">
           <p>Have a problem?</p>
           <p>Reach Out to Us</p>
         </div>
-        <div className="text-white text-[10px] sm:text-[12px] md:text-[14px]">
+        <div className="text-white text-[10px] sm:text-[12px] md:text-[14px] text-center">
           <p>Subscribe to newletters</p>
           <p>from Getreat</p>
         </div>
@@ -24,15 +24,14 @@ const Footer = () => {
         <div className="flex h-[25px] gap-2 sm:gap-3">
           <img src={facebook} alt="" />
           <img src={insta} alt="" />
-          <img src={x} alt="" />
           <img src={whatsapp} alt="" />
         </div>
         <div className="flex items-center text-center">
-          <p className="text-[13px] sm:text-[12px] md:text-[14px] text-white ml-[2px] sm:mr-16 lg:mr-0 ">
+          <p className="text-[13px] sm:text-[12px] md:text-[14px] lg:text-[24px] text-white ml-[-25px] lg:mr-0 ">
             +234-5005-34343
           </p>
         </div>
-        <div className="h-20 w-[270px] sm:w-[200px] flex justify-center items-center">
+        <div className="h-20 w-[270px] sm:w-[180px] flex justify-center items-center">
           <form action="">
             <div className="flex w-full max-w-[300px] gap-1 sm:mr-10 bg-white rounded-lg p-1">
               <input
@@ -58,8 +57,8 @@ const Footer = () => {
           <li>All rights reserved</li>
         </ul>
       </div>
-      <div className="text-white text-[10px] sm:text-[14px] w-full">
-        <ul className="flex justify-center w-full items-center">
+      <div className="text-white text-[10px] sm:text-[14px] w-full flex justify-center lg:justify-end">
+        <ul className="flex items-center lg:w-[328px] justify-start">
           <li>Web in Nigeria</li>
           <li>
             <img src={flag} alt="" className="w-[20px]" />

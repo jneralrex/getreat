@@ -25,7 +25,7 @@ const Login = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="w-[90%] bg-white gap-10 font-spartan rounded-lg pb-[60px] p-5">
+      <div className=" w-[90%] md:w-8/12 bg-white gap-10 font-spartan rounded-lg pb-[60px] p-5">
         <div className="flex flex-col gap-2 w-full ml-auto mr-auto max-w-[400px]  lg:max-w-full lg:ml-0 lg:mr-0 lg:px-20 lg:py-5">
           <div className="flex flex-col items-center lg:justify-start lg:items-start">
             <img src={logo} alt="Logo" className="size-20" />
